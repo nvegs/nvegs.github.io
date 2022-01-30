@@ -3,7 +3,9 @@ import React from "react";
 const Card = (props) => {
   return (
     <>
-      <div class="container mx-auto px-4 bg-purple-100">{props.children}</div>
+      <div className="container sm:container mx-auto border-2 border-slate-800">
+        {props.children}
+      </div>
     </>
   );
 };
